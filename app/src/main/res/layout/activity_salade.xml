@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salade_activity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView4_"
+            android:layout_width="200dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/saladeoeuf" />
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/saladeoeuft"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="24dp"
+            android:background="#000000"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/commander"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView4_"
+            app:layout_constraintTop_toBottomOf="@+id/textView_" />
+
+        <ImageView
+            android:id="@+id/imageView6_"
+            android:layout_width="192dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView3_"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4_"
+            app:srcCompat="@drawable/saladeavocado" />
+
+        <TextView
+            android:id="@+id/textView3_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="116dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/saladeavocado"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_" />
+
+        <TextView
+            android:id="@+id/textView2_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="96dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/saladecomposé"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView7_"
+            app:layout_constraintTop_toBottomOf="@+id/button3_" />
+
+        <TextView
+            android:id="@+id/textView4_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/saladechouxcar"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2_" />
+
+        <TextView
+            android:id="@+id/textView5_"
+            android:layout_width="161dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/saladesushis"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView9_"
+            app:layout_constraintTop_toBottomOf="@+id/button4_" />
+
+        <Button
+            android:id="@+id/button3_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:background="#000000"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/commander"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3_" />
+
+        <Button
+            android:id="@+id/button2_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:background="#000000"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/commander"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2_" />
+
+        <Button
+            android:id="@+id/button4_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:background="#000000"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/commander"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4_" />
+
+        <Button
+            android:id="@+id/button5_"
+            android:layout_width="163dp"
+            android:layout_height="47dp"
+            android:background="#000000"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/commander"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5_" />
+
+        <ImageView
+            android:id="@+id/imageView7_"
+            android:layout_width="192dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/button2_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6_"
+            app:srcCompat="@drawable/saladecompose" />
+
+        <ImageView
+            android:id="@+id/imageView8_"
+            android:layout_width="187dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/button4_"
+            app:layout_constraintHorizontal_bias="0.222"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7_"
+            app:srcCompat="@drawable/saladechouxcarrotes" />
+
+        <ImageView
+            android:id="@+id/imageView9_"
+            android:layout_width="188dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button5_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8_"
+            app:srcCompat="@drawable/saladesushis" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

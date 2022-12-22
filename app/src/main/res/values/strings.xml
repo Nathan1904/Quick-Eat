@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EatProject</string>
+    <string name="login">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="register_title">Inscription</string>
+    <string name="pseudo">Pseudonyme</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de Passe</string>
+    <string name="password2">Confirmez votre mot de passe</string>
+    <string name="text1">Quick Eat</string>
+    <string name="btn_decouvrir1">découvrir</string>
+    <string name="burgereat">Quick Eat Burgers et Frites</string>
+    <string name="desserteat">Desserts Quick Eat</string>
+    <string name="pizzaeat">Pizzas spécials Quick Eat</string>
+    <string name="menu_quickeat">Menu Quick Eat</string>
+    <string name="maxiquickeat">Menu Maxi Quick Eat  12€</string>
+    <string name="commander">Commander</string>
+    <string name="doublecheese">Doublecheese Quick Eat 9€</string>
+    <string name="rustik">Frites spéciales Quick Eat 2€</string>
+    <string name="fishburger">Burgerfish  Quick Eat 7€</string>
+    <string name="burgerbacon">Burgerbacon Quick Eat 7€</string>
+    <string name="salade">Salade Quick Eat</string>
+    <string name="saladeoeuft">Salade aux oeufs Qucik Eat 16€</string>
+    <string name="saladeavocado">Salade Avocado Quick Eat 23€</string>
+    <string name="saladecomposé">Salade Composé Quick Eat 24€</string>
+    <string name="saladechouxcar">Salade Choux Carrotes Quick Eat 18€</string>
+    <string name="saladesushis">Salade Sushis Quick Eat 25€</string>
+    <string name="text3">Nous préparons votre commande vous serez bientôt livré merci de votre patience.</string>
+
+</resources>

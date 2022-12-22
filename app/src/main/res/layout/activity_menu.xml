@@ -1,0 +1,176 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".burgers_menu">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="413dp"
+            android:layout_height="206dp"
+            android:src="@drawable/bugers_firtes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@id/burgereat"
+            android:layout_width="357dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/burgereat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+        <Button
+            android:id="@+id/btn_decouvrir1"
+            android:layout_width="357dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#000000"
+            android:text="@string/btn_decouvrir1"
+            android:textColor="#FFFFFF"
+            android:translationX="0px"
+            android:translationY="0px"
+            android:translationZ="0px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/burgereat" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="408dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/desserts"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_decouvrir1" />
+
+        <TextView
+            android:id="@id/dessereat"
+            android:layout_width="357dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/desserteat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/btn_decouvrir2"
+            android:layout_width="357dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#000000"
+            android:text="@string/btn_decouvrir1"
+            android:textColor="#FFFFFF"
+            android:translationX="0px"
+            android:translationY="0px"
+            android:translationZ="0px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dessereat" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="411dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/pizzas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_decouvrir2" />
+
+        <TextView
+            android:id="@id/pizzaeat"
+            android:layout_width="357dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/pizzaeat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/btn_decouvrir3"
+            android:layout_width="357dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#000000"
+            android:text="@string/btn_decouvrir1"
+            android:textColor="#FFFFFF"
+            android:translationX="0px"
+            android:translationY="0px"
+            android:translationZ="0px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pizzaeat"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="411dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/salade"
+            app:layout_constraintEnd_toEndOf="@id/saladeeat"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_decouvrir3" />
+
+        <TextView
+            android:id="@id/saladeeat"
+            android:layout_width="357dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="@string/salade"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/btn_decouvrir4"
+            android:layout_width="357dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#000000"
+            android:text="@string/btn_decouvrir1"
+            android:textColor="#FFFFFF"
+            android:translationX="0px"
+            android:translationY="0px"
+            android:translationZ="0px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/saladeeat" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
